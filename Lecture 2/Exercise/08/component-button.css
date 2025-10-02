@@ -1,0 +1,56 @@
+div.buttons {
+    margin: 20px;
+    padding: 10px;
+    font-family: Lato, sans-serif;
+}
+
+h4 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    padding: 10px 15px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-right: 15px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    font-size: 16px;
+    
+}
+
+.gray {
+    background-color: gainsboro;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: rgb(251, 251, 162);
+}
+
+.white {
+    background-color: white;
+}
+
+
+
+.edit {
+    background-color: gainsboro;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+

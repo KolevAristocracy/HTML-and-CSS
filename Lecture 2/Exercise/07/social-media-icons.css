@@ -1,0 +1,29 @@
+main {
+    font-family: Lato,sans-serif;
+    margin: 30px;
+}
+
+.buttons {
+    padding-top: 15px;
+    list-style-type: none;;
+}
+
+.buttons .item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+ul.buttons .item .btn {
+    border-radius: 100%;
+    width: 50px;
+    aspect-ratio: 1 / 1;
+    font-size: 20px;
+    border: none;
+
+}
+
+section.buttons ul.buttons .item .btn i {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
