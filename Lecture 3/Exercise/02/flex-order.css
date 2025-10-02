@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.section {
+    margin: 30px;
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 0 1px 10px 0 rgb(98, 97, 97);
+}
+
+.section > * {
+    padding: 0.5rem;
+}
+
+.text {
+    border: 2px solid gainsboro;
+    border-radius: 3px;
+    padding: 1.5rem;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.text.main {
+    width: 100%;
+}
+
+.text.sidebar {
+    width: 60%;
+}
+
+.section.two main {
+    flex-direction: row-reverse;
+}
