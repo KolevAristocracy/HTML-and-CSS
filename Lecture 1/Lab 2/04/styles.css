@@ -1,0 +1,33 @@
+li a.home {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+div.articles > article#article-1 > section#section-1 {
+    background-color: rgb(179, 164, 193);
+}
+
+header + section {
+    font-style: italic;
+}
+
+section ~ article {
+    color: rgb(145, 20, 118);
+}
+
+p.services[type="service-2"] {
+    color: whitesmoke;
+}
+
+p:last-child{
+    background-color: aqua;
+}
+
+p:nth-of-type(1) {
+    color: bisque;
+}
+

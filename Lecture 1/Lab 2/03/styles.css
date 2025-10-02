@@ -1,0 +1,19 @@
+p.highlighted {
+    color: aquamarine;
+    font-size: 18px;
+}
+
+div#special-id {
+    background-color: orange;
+    padding: auto;
+}
+
+input[type="text"].custom-input {
+    border-color: bisque;
+    border-radius: 3px;
+}
+
+.p-one.p-two {
+    font-style: oblique;
+    font-weight: 600;
+}
