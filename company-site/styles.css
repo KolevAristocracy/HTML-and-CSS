@@ -1,0 +1,56 @@
+:root {
+    --clr-night: #19183B;
+    --clr-dark-teal: #708993;
+    --clr-sage: #A1C2BD;
+    --clr-gradient: #E7F2EF;
+}
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+html {
+    background-color: #D6E6F2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    background-color: #2C3639;
+    color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.nav-list .list-items {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    
+}
+
+.list-items:hover {
+    color: black;
+    background-color: aliceblue;
+}
