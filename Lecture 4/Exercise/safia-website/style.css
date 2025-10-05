@@ -80,6 +80,10 @@ html {
     margin: 0 auto;
 }
 
+.logos-img {
+    order: 2
+}
+
 .hero .title {
     font-weight: bold;
     font-size: 2rem;
