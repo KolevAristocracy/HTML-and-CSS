@@ -1,0 +1,36 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    background-color: white;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+
+select {
+    display: block;
+    min-width: 20ch;
+    min-height: 20ch;
+}
+
+input:focus {
+    border-color: #090;
+}
+

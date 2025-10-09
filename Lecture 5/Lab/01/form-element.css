@@ -1,0 +1,38 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+html {
+    background-color: white;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+body {
+    padding: 2em;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+
+form input {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+input:focus {
+    border-color: #090;
+}
+
