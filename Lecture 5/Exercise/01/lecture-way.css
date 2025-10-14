@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    min-width: 320px;
+}
+
+.card .title {
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.card .form .row {
+    margin-bottom: 1rem;
+}
+
+
+.card .form .row label .asterix {
+    color: red;
+}
+
+
+.card .form .row input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.125rem;
+    border: 1px solid #cccccc;
+}
+
+.card .form button {
+    padding: 0.75rem;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #ff8c02;
+    background-color: #ff8c02;
+    color: #fff;
+    transition: all 300ms ease-in-out;
+    border-radius: 0.25rem;
+}
+
+.card .form button:hover{
+    background-color: #fff;
+    color: #ff8c02;
+}
