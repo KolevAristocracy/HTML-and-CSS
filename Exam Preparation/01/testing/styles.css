@@ -1,0 +1,84 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 60px 10%;
+  background: #f9f9f9;
+}
+
+.footer h3 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.contact form {
+  max-width: 400px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.social .icons {
+  display: grid;
+  grid-template-columns: repeat(4, 40px);
+  gap: 10px;
+}
+
+.social a {
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  background: #333;
+  color: #fff;
+}
+
+.copy {
+  text-align: center;
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.copy a {
+  color: #333;
+  text-decoration: none;
+}

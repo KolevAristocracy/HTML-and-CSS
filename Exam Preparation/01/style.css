@@ -1,0 +1,111 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Source Sans 3", sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+    color: #585858;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+aside {
+    flex: 0 0 350px;
+}
+
+.container {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.title {
+    letter-spacing: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.form {
+    padding-top: 2rem;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 1.5rem;
+}
+
+
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 0.125rem;
+    color: whitesmoke;
+    background-color: #585858;
+    padding: 0.75rem 1.5rem;
+    letter-spacing: 0.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.flex-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.items .item {
+    padding: 0.5rem 1.125rem;
+    border: 2px solid gainsboro;
+    border-radius: 0.125rem;
+    text-align: center;
+    width: 60px;
+
+}
+
+.footer {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer .link {
+    color: #585858;
+}

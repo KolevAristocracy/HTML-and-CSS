@@ -1,0 +1,293 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+
+
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+html {
+    font: 14px/1.5 Open Sans, sans-serif;
+}
+
+body {
+    background-color: #c1bbbb;
+}
+/* SECTION */
+
+.section {
+    background-color: #c1bbbb;
+}
+
+.section.site-header .title {
+    font-family: "Oleo Script", sans-serif;
+    color: white;
+    font-size: 3rem;
+    font-weight: 100;
+    background-color: #58a491;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.3rem;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+.section.site-header .site-branding {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.section.site-header .site-branding .site-desc {
+    font-weight: bold;
+    color: #444444;
+}
+
+
+.section .inner {
+    max-width: 1300px;
+    margin: 0 auto;;
+}
+
+.section.site-header .inner {
+    display: flex;
+    padding: 4rem 0 2rem;
+}
+
+/* NAVIGATION */
+
+.section.site-header .nav {
+    margin-left: auto;
+}
+
+.section.site-header .nav .list {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav .list .list-items {
+    color: #626365;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.nav .list .active {
+    background-color: #444444;
+    color: white;
+}
+
+/* BANNER */
+
+.section.banner .inner {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background-color: #fff;
+    border-radius: 0.25rem;
+    padding: 4rem 3rem;
+}
+
+
+.section.banner .inner .title {
+    width: 680px;
+    font-size: 4rem;
+    color: #444444;
+}
+
+.section.banner p.text {
+    font-size: 3rem;
+    font-weight: 100;
+    color: #444444;
+}
+
+.section.banner .inner .buttons {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.banner .inner .buttons .btn {
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    text-decoration: none;
+    padding: 2rem 2.5rem;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.buttons .btn.primary {
+    background-color: #0190c5;
+    color: white;
+}
+
+.buttons .btn.secondary {
+    color: #444444;
+    background-color: #f2f2f2;
+}
+
+/* CARDS */
+
+.section.cards {
+    margin-bottom: 3rem;
+}
+
+.section.cards .inner{
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+
+}
+
+.section.cards .card {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.section.cards p {
+    font-weight: 100;
+    line-height: 1.7;
+    opacity: 0.7;
+}
+
+.section.cards .card-header {
+    padding: 3rem 2.5rem 0;
+}
+
+.section.cards .card-header h3 {
+    font-size: 1.4rem;
+    line-height: 1;
+}
+
+.section.cards .card-content {
+    padding: 0 2.5rem;
+    padding-bottom: 2rem;
+}
+
+/* CALL TO ACTIOBN */
+
+.section.call-to-action {
+    background-color: #ffffff;
+    margin-bottom: 4rem;
+}
+
+.section.call-to-action .inner {
+    display: flex;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+
+.section.call-to-action .aside {
+    flex: 0 0 30%
+}
+
+.section.call-to-action .aside ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    list-style: none;
+    margin: 2rem 0;
+
+}
+
+.section.call-to-action .aside ul li {
+    flex: 1 1 40%;
+    display: block;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+
+.section.call-to-action h3 {
+    font-size: 2rem;
+}
+
+.section.call-to-action h4 {
+    font-size: 1.5rem;
+}
+
+.call-to-action .inner .main p {
+    line-height: 2;
+    padding: 1rem 0;
+    opacity: 0.6;
+}
+
+.call-to-action .inner .button {
+    display: inline-block;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: #0190c5;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 0.25rem;
+
+}
+
+
+
+/* FOOTER */
+
+.section.site-footer .columns {
+    display: flex;
+    gap: 2rem;
+}
+
+.section.site-footer .columns .column {
+    flex: 1 1 25%;
+}
+
+.section.site-footer .columns .column a {
+    color: #484747;
+}
+
+.section.site-footer .columns .column li {
+    list-style: none;
+    padding: 0.25rem 0;
+}
+
+.section.site-footer .inner > p:last-child {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials li {
+    display: block;
+}
+
+.socials a {
+    display: block;
+    padding: 0.25rem;
+    font-size: 2rem;
+    color: #444444;
+}
+
+
+.column .address {
+    line-height: 2;
+    color: #444444;
+}
