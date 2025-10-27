@@ -1,0 +1,115 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Kode Mono", sans-serif;
+    background-color: #c1bdba;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+article {
+    font-family: inherit;
+}
+
+.login-card {
+    margin: 2rem auto;
+    background-color: #23333c;
+    width: 600px;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+.title {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    padding: 1.75rem 2rem;
+
+}
+
+.btn-act {
+    border: unset;
+    background-color: #19b188;
+    padding: 0.75rem 3rem;
+    width: 100%;
+}
+
+.btn-act.sign {
+    color: whitesmoke;
+}
+
+.btn-act.login {
+    background-color: #445258;
+    color: #a0b3b0;
+    transition: 0.3s ease-in-out ;
+}
+
+.btn-act.login:hover {
+    background-color: #169a77;
+    color: whitesmoke;
+}
+
+.btn {
+    display: inline-block;
+    border: unset;
+    background-color: #19b188;
+    padding: 0.75rem 3rem;
+    color: whitesmoke;
+    font-size: 2.25rem;
+    width: 100%;
+}
+
+.form {
+    padding: 0 2rem;
+}
+
+label {
+    font-family: inherit;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    padding: 0.25rem;
+    border: 1px solid #97a9a7;
+    margin-bottom: 2rem;
+    color: #97a9a7;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+span {
+    color: #19b188;
+}
+
+.form .name-items {
+    display: flex;
+    gap: 1rem;
+}

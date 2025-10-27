@@ -1,0 +1,90 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Gochi Hand", sans-serif;
+    color: #565757;
+    background-color: #e0e0e0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+/* MAIN CARD */
+.card {
+    position: absolute;
+    width: 800px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+}
+
+.card .main {
+    padding: 1.5rem;
+}
+
+.card .main .img {
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card .greetings-container {
+    position: relative;
+}
+
+.card .greetings {
+    position: absolute;
+    background-color: #f8f8f7;
+    text-align: center;
+    bottom: 20px;
+
+    padding: 1rem 2rem;
+    margin: 0 1.25rem;
+    border-radius: 1rem;
+}
+
+.card .greetings .text {
+    font-size: 1rem;
+}
+
+.card .title {
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+/* SECONDARY SECTION */
+
+.secondary {
+    border-top: 1px solid rgb(200, 197, 197);
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.secondary .content {
+    margin: 2rem;
+}
+
+.secondary .content .text {
+    padding: 0.55rem 0;
+}

@@ -1,0 +1,124 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+img {
+    display: block;
+    width: 95%;
+
+}
+
+/* MAIN */
+
+
+
+.main-article {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    width: 1920px;
+    margin: 2rem auto;
+    padding: 1rem 6rem;
+
+    box-shadow: rgba(0, 0, 0, 0.84) 1px 2px 20px;
+}
+
+/* IMAGE section */
+section.image {
+    flex: 1 1 auto;
+
+}
+
+.image .img {
+    width: 100%;
+    height: auto;
+}
+
+/* MAIN SECTION */
+
+div.content {
+ flex: 1 4 auto;
+ padding: 2rem;
+
+}
+
+section.main {
+    background-color: #f3f3f3;
+    border-left: 4px solid #7bb731;
+    padding: 1rem;
+    
+}
+
+section.main .note-title {
+
+    color: #7bb731;
+    font-size: 0.75rem;
+
+}
+
+section.main .title {
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* MID TEXT */
+
+div.text p.text {
+    text-align: center;
+    padding: 2rem 1rem;
+    opacity: 0.7;
+    font-weight: bold;
+}
+
+/* SECONDARY SECTION */
+.secondary {
+    background-color: #f3f3f3;
+}
+
+.secondary .mission {
+    display: flex;
+    justify-content: center;
+    color: #dfe1dd;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+.secondary .mission .mission-title {
+    color: white;
+    font-weight: 300;
+    padding: 0.25rem 0;
+    background-color: #7bb731;
+    width: 50%;
+}
+
+.secondary .mission .vision-title {
+    color: #7bb731;
+    padding: 0.25rem 0;
+    font-weight: 300;
+    width: 50%;
+}
+
+.secondary .text {
+    padding: 0 2rem 3rem;
+    opacity: 0.7;
+}
+
+

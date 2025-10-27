@@ -1,0 +1,114 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    font-family: inherit;
+    background-color: #d9d9d9;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 3rem;
+    gap: 2rem;
+
+}
+
+/* CARD */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #606161;
+
+    width: 33.33%;
+    height: 90vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card .bg-img {
+
+    height: 310px;
+    object-fit: fill;
+
+}
+
+.card .content {
+    margin: 0 3rem;
+
+}
+
+.card .content .title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.card .content .md-text {
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+
+.card .content .text {
+    padding-top: 2rem;
+    font-size: 1rem;
+    font-weight: 250;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #606161;
+    padding-top: 1rem;
+    margin: 0 2rem;
+}
+
+.footer .content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0;
+}
+
+.footer .men-img {
+    width: 15%;
+    clip-path: circle();
+}
+
+.footer .read {
+    opacity: 0.6;
+    white-space: nowrap;
+}

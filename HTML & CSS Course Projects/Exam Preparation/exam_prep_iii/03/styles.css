@@ -1,0 +1,260 @@
+/* CSS RESET */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    color: #565757;
+    background-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.header .img-wrapper {
+    width: 120px;
+}
+
+.header .nav-wrapper .navigation {
+    display: flex;
+    gap: 2rem;
+    margin-right: 2rem;
+
+
+}
+
+/* MAIN */
+
+.main {
+    background-color: white;
+}
+
+.main .img-wrapper {
+    width: 100%;
+    height: 300px;
+    background-color: #1db954;
+    position: relative;
+}
+
+.main .img-wrapper .img {
+    position: relative;
+    top: 50px;
+    width: 45%;
+}
+
+.main .plans.title {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -280px;
+    margin: 1.875rem 0;
+}
+
+/* TAXES CARDS */
+
+.taxes {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    height: 400px auto;
+    margin: 0 auto -220px auto;
+    width: 90%;
+    top: -280px;
+}
+
+.taxes .taxes-card {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+    border-radius: 0.75rem;
+}
+
+.taxes .taxes-card .title {
+    margin-top: 1.25rem;
+    color: #565757;
+}
+
+.taxes .taxes-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.taxes .taxes-card .benefits {
+    margin-top: 1.25rem;
+    margin-left: 3rem;
+    width: 80%;
+}
+
+.benefits .items {
+    list-style-type: circle;
+    text-align: left;
+
+    margin-top: 0.75rem;
+}
+
+.btn {
+    background-color: #1db954;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    width: 50%;
+    align-self: center;
+    border-radius: 1.25rem;
+    border: none;
+    margin: 2rem;
+}
+
+.taxes-card.student .btn {
+    margin: unset;
+}
+
+.taxes .taxes-card footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #191414;
+    padding: 0.75rem 0;
+    border-radius: 0 0 0.75rem 0.75rem;
+    color: white;
+}
+
+.taxes-card footer .text {
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.taxes-card.student footer div:first-child {
+    border-right: 1px solid#f8f8f8;
+}
+
+/* FINANCE SECTION */
+
+.finance {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 6rem;
+    color: #191414;
+}
+
+.finance .dogo-img-wrapper {
+    width: 30%;
+}
+
+.finance .img {
+    float: right;
+    width: 80%;
+
+}
+
+.finance .title {
+    text-align: center;
+}
+
+.finance .text {
+    margin-top: 1.25rem;
+    width: 50rem;
+}
+
+/* EXPERIENCE SECTION */
+
+.experience {
+    width: 65%;
+    margin: 6rem auto;
+    text-align: center;
+    color: #191414;
+}
+
+.experience .title {
+    font-size: 3rem;
+}
+
+.experience .text {
+    font-size: 1.25rem;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+}
+
+.experience ul {
+    padding: 0;
+}
+
+.experience ul li {
+    display: flex;
+    padding: 0.75rem;
+    justify-content: space-between;
+}
+
+.experience ul li span {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience span img {
+    width: unset;
+}
+
+.experience ul li:nth-child(odd) {
+    background-color: #19141438;
+}
+
+.experience ul li:nth-child(even) {
+    background-color: #1db9548e;
+}
+
+.experience ul li:first-child{
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.experience ul li:last-child{
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+
+/* FOOTER */
+
+.footer .rights {
+    background-color: #191414;
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+}
